@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/*écriture*/
+
+body{
+    font-family : 'Open Sans', sans-serif ;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Entête */
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.logo span{
+    color: orange;
+}
+
+
+#menu nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 35px;
+    }
+
+#menu nav ul li a{
+        text-decoration: none;
+        color: grey;
+    }
+
+#menu nav ul li a:hover{
+        color: #4a4a4b;/*change la couleur quand on survol*/
+    }
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+} 
+
+.dog{
+    width: 35%;
+}
+
+header h1{
+    font-size: 4rem;
+    margin: 0;
+    font-weight: lighter;
+}
+
+header section div p{
+    font-size: 1.3rem;
+    margin: 0;
+    color: grey;
+    font-weight: lighter;
+} 
+
+
+/* corps*/
+
+main section h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+main section p{
+    color: #4a4a4b;
+}
+
+/*Image en général*/
+
+main section img{
+       box-shadow: 10px 10px 10px#999999; 
+    }
+
+/*Pied de page*/
+
+footer{
+        border: 1px solid #4a4a4b;
+        text-align: center;
+        background-color: #4a4a4b;
+        color: white;
+    }
